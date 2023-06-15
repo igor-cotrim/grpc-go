@@ -8,4 +8,10 @@ Entrar no Sqlite:
 sqlite3 db.sqlite
 
 baixar dependencias do go:
-go mod tidy         
+go mod tidy
+
+links uteis:
+https://grpc.io/docs/languages/go/quickstart/
+https://grpc.io/docs/protoc-installation/
+https://protobuf.dev/programming-guides/style/
+https://github.com/ktr0731/evans#installation
