@@ -1,0 +1,11 @@
+Gerar o proto:
+protoc --go_out=. --go-grpc_out=. proto/course_category.proto 
+
+Rodar servidor go:
+go run cmd/grpcServer/main.go 
+
+Entrar no Sqlite:
+sqlite3 db.sqlite
+
+baixar dependencias do go:
+go mod tidy         
